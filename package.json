@@ -1,0 +1,55 @@
+{
+  "name": "dev-performance-toolkit",
+  "version": "2.0.0",
+  "description": "Professional performance optimization toolkit for developers - boost your development environment by 50-80%",
+  "main": "index.js",
+  "bin": {
+    "git-optimizer": "./cross-platform/git-optimizer.js",
+    "npm-optimizer": "./cross-platform/npm-optimizer.js",
+    "docker-optimizer": "./cross-platform/docker-optimizer.js"
+  },
+  "scripts": {
+    "test": "echo \"Test suite coming soon\"",
+    "benchmark": "node tools/benchmark.js",
+    "optimize:git": "node cross-platform/git-optimizer.js",
+    "optimize:npm": "node cross-platform/npm-optimizer.js",
+    "optimize:docker": "node cross-platform/docker-optimizer.js"
+  },
+  "keywords": [
+    "performance",
+    "optimization",
+    "developer-tools",
+    "network",
+    "system",
+    "windows",
+    "macos",
+    "git",
+    "npm",
+    "docker",
+    "development",
+    "devops"
+  ],
+  "author": {
+    "name": "hybirdss",
+    "url": "https://github.com/hybirdss"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hybirdss/dev-performance-toolkit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hybirdss/dev-performance-toolkit/issues"
+  },
+  "homepage": "https://github.com/hybirdss/dev-performance-toolkit#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "os": [
+    "win32",
+    "darwin",
+    "linux"
+  ],
+  "devDependencies": {},
+  "dependencies": {}
+}
